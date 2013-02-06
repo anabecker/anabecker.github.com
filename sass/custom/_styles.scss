@@ -1,10 +1,16 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
 
-html{
-text-shadow:none;
-}
+html{background-color:#000}
+body>header{background-color:#000}
+body>nav{background: #000}
+body>div{background: #000}
+body>footer{background: #000}
+aside.sidebar{color: #fff}
+body>header h1{color: #fff}
+body>nav a{color: #fff}
+body>footer a{color: #fff}
+body>footer p:last-child{color: #fff}
+body>header h2{color: #fff}
 
-body{
-	background-color:#fff;	
-}
+body>nav a{text-shadow:none !important}
